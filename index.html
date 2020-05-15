@@ -34,7 +34,6 @@
       const tiles = L.tileLayer(tileUrl, { attribution });
       tiles.addTo(mymap);
 
-      // Making a marker with a custom icon
         const issIcon = L.icon({
         iconUrl: 'iss.png',
         iconSize: [50, 32],
@@ -61,7 +60,6 @@
           firstTime = false;
         }
         }
-
         
         getISS();
         setInterval(getISS, 1000);
